@@ -2,7 +2,14 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        neue: "'Bebas Neue', cursive"
+      },
+      colors: {
+        primarybg: '#FFFBF0'
+      }
+    }
   },
   variants: {
     extend: {},
